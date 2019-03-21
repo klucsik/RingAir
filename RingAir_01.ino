@@ -29,7 +29,7 @@ extern "C" {
 
 const char* host = "script.google.com";
 // Replace with your own script id to make server side changes
-const char *GScriptId = "AKfycbxS-Ya0r1DlF5pOgDoRkJZrq2Lk1pJfJ9csA9N1eHlfvdZbMSE";
+const char *GScriptId = "FFFFFFFFFFFFFFF";
 
 const int httpsPort = 443;
 
@@ -136,7 +136,7 @@ SoftwareSerial ss(D6, D7, false);
 double lat, lon;
 
 #include <WifiLocation.h>
-const char* googleApiKey = "AIzaSyAe_4B9H7V0P2ZcjEGxFUgs39hkdF8D3hg";
+const char* googleApiKey = "FFFFFF";
 WifiLocation location(googleApiKey);
 
 ////////////////////////*********************************//////////////////////////////////
@@ -1090,9 +1090,7 @@ void setup() {
   //netcsatlakozás
   delay(200);
   // WiFi.mode(WIFI_STA);
- // wifiMulti.addAP("encotech", "GMH8258VZ");
- // wifiMulti.addAP("Wolves", "19790414KelAki");
-  wifiMulti.addAP("ALE-L21", "birdisbird");
+  wifiMulti.addAP("ALE-L21", "fff");
   // wifiMulti.addAP("ssid_from_AP_3", "your_password_for_AP_3");
 
   Serial.println("Connecting Wifi...");
